@@ -62,7 +62,7 @@ mhSignatureChild.innerHTML = `
 `;
 
 mhSignatureChild.addEventListener("click", () => {
-  window.open("https://www.github.com/marwanhawari");
+    window.open("https://www.github.com/marwanhawari");
 });
 
 mhSignatureElement.append(mhSignatureChild);
