@@ -65,7 +65,9 @@ mhSignatureChild.innerHTML = `
     </svg>
 `;
 
-mhSignatureChild.addEventListener("click", () => {
+const mgSignatureSVG = mhSignatureChild.querySelector("#signature-svg");
+
+mgSignatureSVG.addEventListener("click", () => {
     window.open("https://www.github.com/marwanhawari");
 });
 
