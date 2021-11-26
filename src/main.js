@@ -1,5 +1,9 @@
 const mhSignatureElement = document.querySelector("#mh-signature");
 
+if (!mhSignatureElement) {
+    throw new Error("No element with an 'mh-signature' id was found!");
+}
+
 const mhSignatureChild = document.createElement("div");
 mhSignatureChild.setAttribute("id", "signature-container");
 mhSignatureChild.innerHTML = `
