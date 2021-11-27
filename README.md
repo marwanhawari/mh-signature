@@ -1,5 +1,5 @@
 <p align="center">
-  <img width=70% height=auto src="https://github.com/marwanhawari/pacing.app/raw/main/assets/mh-signature.gif" alt="mh-signature gif"/>
+  <img width=70% height=auto src="https://github.com/marwanhawari/mh-signature/raw/main/assets/mh-signature.gif" alt="mh-signature gif"/>
 </p>
 
 # Description
