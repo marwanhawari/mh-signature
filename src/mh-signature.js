@@ -12,6 +12,8 @@ mhSignatureChild.innerHTML = `
             display: flex;
             justify-content: center;
             align-items: center;
+            animation: fadeIn 4s ease forwards;
+            opacity: 0;
         }
         
         #signature-svg {
@@ -38,6 +40,11 @@ mhSignatureChild.innerHTML = `
         @keyframes sign {
             to {
                 stroke-dashoffset: 0;
+            }
+        }
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
             }
         }
     </style>
